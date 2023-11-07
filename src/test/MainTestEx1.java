@@ -1,4 +1,4 @@
-package n1ejercicio1;
+package test;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotNull;
@@ -9,13 +9,15 @@ import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 
-class MainTest {
+import n1ejercicio1.MainEx1;
+
+class MainTestEx1 {
 
 	private static ArrayList<String> months;
 
 	@BeforeAll
 	public static void setUp() {
-		months = Main.createList();
+		months = MainEx1.createList();
 	}
 
 	@AfterAll

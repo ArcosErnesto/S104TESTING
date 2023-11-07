@@ -2,7 +2,7 @@ package n1ejercicio1;
 
 import java.util.ArrayList;
 
-public class Main {
+public class MainEx1 {
 
 	public static void main(String[] args) {
 		ArrayList<String> months = new ArrayList<String>();

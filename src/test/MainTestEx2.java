@@ -1,10 +1,12 @@
-package n1ejercicio2;
+package test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import org.junit.jupiter.api.Test;
 
-class MainTest {
+import n1ejercicio2.CalculoDni;
+
+class MainTestEx2 {
 
 	@Test
 	void testCalculateLetter() {
@@ -14,7 +16,7 @@ class MainTest {
 		String letters = "TRWAGMYFPDXBNJZSQVHLCKE";
 
 		for (int i = 0; i < numDNI.length; i++) {
-			char returnLetter = Main.calculateLetter(numDNI[i], letters);
+			char returnLetter = CalculoDni.calculateLetter(numDNI[i]);
 			char expetedLetter = expetedLettersList[i];
 			assertEquals(expetedLetter, returnLetter, "El DNI " + numDNI[i] + " debería tener letra " + expetedLetter);
 		}
