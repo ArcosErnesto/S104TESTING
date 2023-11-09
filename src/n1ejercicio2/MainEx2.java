@@ -5,7 +5,7 @@ public class MainEx2 {
 	public static void main(String[] args) {
 		int inputDNI;
 
-		inputDNI = 66666666;
+		inputDNI = 41006244;
 
 		char letraDNI = CalculoDni.calculateLetter(inputDNI);
 
